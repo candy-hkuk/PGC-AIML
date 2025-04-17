@@ -1,0 +1,42 @@
+step 1 and part of step 2
+
+read df
+check null
+info
+describe
+check data type
+outliers
+drop the first column
+release_date - convert into pandas date time
+convert numerical columns to numeric and do correlation
+do plots on album, release dates, popularity, duration ms
+popularity with other columns - draw plots and explain your inference
+look at data scatterness of "danceability", "energy", "valence", "tempo" - normal or uniform or skewed
+correlation matrix
+
+Step 2
+
+PCA
+Keep only necessary columns, reduce dimensionality to 2 (don't include popularity)
+pc1 and pc2
+
+for pc1 and pc2 do plot with hue of popularity
+
+Keep only necessary columns, reduce dimensionality to 3 (don't include popularity)
+pc1, pc2 and pc3
+
+for pc1, pc2 and pc3 do plot with hue of popularity
+
+eigenvalue, variance -
+say whether each number of cluster suits the PCA
+
+Step 3 clustering - on top of pca
+
+k means ++
+elbow and silhouette to come up with best cluster
+
+hierarchical
+say whats optimal based on hierarchy seen
+
+db scan
+with multiple cluster, plot the data and show them
